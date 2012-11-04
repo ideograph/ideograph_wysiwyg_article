@@ -26,7 +26,6 @@ function ideograph_wysiwyg_article_user_default_permissions() {
     'name' => 'delete any ideograph_article content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'editor',
     ),
     'module' => 'node',
   );

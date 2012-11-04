@@ -282,6 +282,7 @@ function ideograph_wysiwyg_article_field_default_fields() {
       'required' => 0,
       'settings' => array(
         'alt_field' => 1,
+        'default_image' => 0,
         'file_directory' => '',
         'file_extensions' => 'png gif jpg jpeg',
         'max_filesize' => '',
@@ -300,6 +301,9 @@ function ideograph_wysiwyg_article_field_default_fields() {
               'absolute' => 0,
               'attach_mode' => 'move',
               'path' => 'file_attach',
+            ),
+            'source_imce' => array(
+              'imce_mode' => 0,
             ),
             'source_reference' => array(
               'autocomplete' => '0',
@@ -395,6 +399,7 @@ function ideograph_wysiwyg_article_field_default_fields() {
       'required' => 0,
       'settings' => array(
         'alt_field' => 1,
+        'default_image' => 0,
         'file_directory' => '',
         'file_extensions' => 'png gif jpg jpeg',
         'max_filesize' => '',
@@ -413,6 +418,9 @@ function ideograph_wysiwyg_article_field_default_fields() {
               'absolute' => 0,
               'attach_mode' => 'move',
               'path' => 'file_attach',
+            ),
+            'source_imce' => array(
+              'imce_mode' => 0,
             ),
             'source_reference' => array(
               'autocomplete' => '0',
